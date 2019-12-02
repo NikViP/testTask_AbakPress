@@ -1,0 +1,186 @@
+/*Шрифты*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Bold.woff2") format('woff2');
+    src: url("../fonts/Roboto-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.woff2") format('woff2');
+    src: url("../fonts/Roboto-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Black.woff2") format('woff2');
+    src: url("../fonts/Roboto-Black.woff") format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Light.woff2") format('woff2');
+    src: url("../fonts/Roboto-Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Medium.woff2") format('woff2');
+    src: url("../fonts/Roboto-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Общие стили*/
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+._customer-visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+._customer-wrapper {
+    width: 100%;
+    max-width: 1147px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*Заголовки секций*/
+
+._customer-chapter {
+    display: flex;
+    position: relative;
+    width: 260px;
+    height: 90px;
+    margin: 10px 0;
+}
+
+._customer-chapter__title {
+    margin-left: 30px;
+}
+
+._customer-chapter__img {
+    position: absolute;
+    top: 28px;
+    left: 4px;
+}
+
+@media (min-width: 520px) {
+    ._customer-chapter {
+        width: 520px;
+        height: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    ._customer-chapter {
+        width: 760px;
+        height: 66px;
+    }
+}
+
+/*Кнопки*/
+
+
+
+/*Секция "Вступление"*/
+
+._customer-about {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #F0F0F0;
+    border-radius: 6px;
+
+    border: 1px solid #f41f10;
+}
+
+._customer-about__content {
+    height: auto;
+    margin: 20px;
+    margin-top: 0;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+._customer-about__img {
+    width: 59px;
+    height: 52px;
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    ._customer-about {
+        flex-direction: row;
+        margin-bottom: 60px;
+    }
+
+    ._customer-about__content {
+        margin: 30px 60px 30px 30px;
+    }
+
+    ._customer-about__img {
+        margin: 30px 0px 50px 30px;
+    }
+
+}
+
+
+
+._customer-services {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid #f41f10;
+}
+
+._customer-request {
+
+    border: 1px solid #f41f10;
+}
+
+._customer-request--price {
+    display: flex;
+    flex-direction: column;
+    min-height: 370px;
+}
+
+._customer-prices {
+    display: flex;
+
+
+    border: 1px solid #f41f10;
+}
+
+._customer-camera-prices {
+    display: flex;
+    flex-direction: column;
+
+
+    border: 1px solid #f41f10;
+}
