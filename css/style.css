@@ -44,28 +44,33 @@
 
 body {
     font-family: "Roboto";
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 100%;
+    max-width: 1226px;
+    box-shadow: 0 10px 20px 10px #dedede;
 }
 
-._customer-visually-hidden:not(:focus):not(:active) {
+._customer-visually-hidden {
     position: absolute;
+    clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    top: 0;
+    left: 0;
 }
 
 ._customer-wrapper {
     width: 100%;
-    max-width: 1147px;
+    max-width: 1148px;
     height: auto;
     margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 30px;
+
+    /*Эти стили УБРАТЬ*/
+    border: 1px solid #f41f10;
 }
 
 /*Заголовки секций*/
@@ -75,7 +80,10 @@ body {
     position: relative;
     width: 260px;
     height: 90px;
-    margin: 10px 0;
+    margin: 25px 0;
+
+    /*Эти стили УБРАТЬ*/
+    border: 1px solid #f41f10;
 }
 
 ._customer-chapter__title {
@@ -115,8 +123,6 @@ body {
     margin-bottom: 10px;
     background-color: #F0F0F0;
     border-radius: 6px;
-
-    border: 1px solid #f41f10;
 }
 
 ._customer-about__content {
@@ -147,20 +153,213 @@ body {
     ._customer-about__img {
         margin: 30px 0px 50px 30px;
     }
-
 }
 
-
+/*Секция "Услуги монтажа и демонтажа ..."*/
 
 ._customer-services {
     display: flex;
     flex-direction: column;
-
-    border: 2px solid #f41f10;
+    padding: 0 20px;
+    line-height: 1.4;
 }
+
+._customer-services__content {
+    color: #3e3e3e;
+}
+
+._customer-services__list-title {
+    font-weight: bold;
+    color: #303030;
+}
+
+._customer-services__list {
+    list-style: none;
+    color: #7a7a7a;
+    margin-left: -40px;
+    line-height: 1.6;
+}
+
+._customer-services__list li::before {
+    content: "\2022";
+    color: #7a7a7a;
+    font-weight: bold;
+    display: inline-block;
+    width: 12px;
+}
+
+@media (min-width: 768px) {
+
+    ._customer-services__unit {
+        position: relative;
+    }
+
+    ._customer-services__icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    ._customer-services__unit.unit--left,
+    ._customer-services__unit.unit--right {
+        padding-left: 120px;
+        padding-right: 26px;
+    }
+
+    ._customer-services__subtitle {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    ._customer-services {
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
+
+    ._customer-services__unit.unit--left {
+        width: 470px;
+    }
+
+    ._customer-services__unit.unit--right {
+        width: 410px;
+        padding-right: 0;
+    }
+}
+
+/*Секция "Узнайте стоимость монтажа и демонтажа ..."*/
+
+._customer-request-price {
+    position: relative;
+
+    /*Эти стили УБРАТЬ*/
+    border: 1px solid #f41f10;
+}
+
+._customer-request-price__background {
+    margin: 0 auto;
+    width: 100%;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px 10px #b4b4b4;
+}
+
+._customer-request-price__img {
+    display: none;
+}
+
+._customer-request-price__wrapper {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 20px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    ._customer-request-price__img {
+        display: block;
+        position: absolute;
+        right: 56px;
+        top: -30px;
+    }
+
+    ._customer-request-price__wrapper {
+        max-width: 290px;
+    }
+}
+
+@media (min-width: 868px) {
+    ._customer-request-price__wrapper {
+        max-width: 370px;
+    }
+}
+
+@media (min-width: 1024px) {
+    ._customer-request-price__wrapper {
+        max-width: 530px;
+    }
+}
+
+/*Секция "Цены на монтаж холодильных камеры"*/
+
+/*#####################################################*/
+/*#####################################################*/
+/*#####################################################*/
+/*#####################################################*/
+
+
+/*Секция "Поможем при переезде..."*/
+
+._customer-request-relocation {
+    position: relative;
+
+
+    /*Эти стили УБРАТЬ*/
+    border: 1px solid #f41f10;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+._customer-request-relocation__background {
+    margin: 0 auto;
+    width: 100%;
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px 10px #b4b4b4;
+}
+
+._customer-request-relocation__img {
+    display: none;
+}
+
+._customer-request-relocation__wrapper {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 20px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    ._customer-request-relocation__img {
+        display: block;
+        position: absolute;
+        right: 136px;
+        top: -25px;
+    }
+
+    ._customer-request-relocation__wrapper {
+        max-width: 370px;
+    }
+}
+
+@media (min-width: 1024px) {
+    ._customer-request-relocation__wrapper {
+        max-width: 530px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 ._customer-request {
 
+
+    /*Эти стили УБРАТЬ*/
     border: 1px solid #f41f10;
 }
 
@@ -173,7 +372,7 @@ body {
 ._customer-prices {
     display: flex;
 
-
+    /*Эти стили УБРАТЬ*/
     border: 1px solid #f41f10;
 }
 
@@ -181,6 +380,6 @@ body {
     display: flex;
     flex-direction: column;
 
-
+    /*Эти стили УБРАТЬ*/
     border: 1px solid #f41f10;
 }

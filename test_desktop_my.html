@@ -23,14 +23,15 @@
         </div>
 
         <section class="_customer-services">
-            <div class="_customer-services__unit">
+            <div class="_customer-services__unit unit--left">
                 <img class="_customer-services__icon" src="img/groupIcon1.png" width="90" height="90" alt="Иконка">
                 <h3 class="_customer-services__subtitle">Монтаж</h3>
-                <p>Все работы ведутся согласно разработанным типовым технологическим решениям. При выполнении монтажа мы используем качественный герметик и обеспечиваем
+                <p class="_customer-services__content content--left">Все работы ведутся согласно разработанным типовым технологическим решениям. При выполнении
+                    монтажа<br>мы используем качественный герметик и обеспечиваем
                     плотную подгонку блоков, что в конечном итоге повышает герметичность камеры.
                 </p>
-                <p class="_customer-services__content">Процесс монтажа включает следующие работы: </p>
-                <ul>
+                <p class="_customer-services__list-title">Процесс монтажа включает следующие работы: </p>
+                <ul class="_customer-services__list">
                     <li>сборка панелей;</li>
                     <li>установка холодильного агрегата;</li>
                     <li>прокладка электрокабелей и трубопроводных систем;</li>
@@ -39,13 +40,14 @@
                     <li>проведение пуско-наладочных работ.</li>
                 </ul>
             </div>
-            <div class="_customer-services__unit">
+            <div class="_customer-services__unit unit--right">
                 <img class="_customer-services__icon" src="img/groupIcon2.png" width="90" height="90" alt="Иконка">
                 <h3 class="_customer-services__subtitle">Демонтаж</h3>
-                <p>Выполняется квалифицированными специалистами, что позволяет минимизировать общее время работ и обеспечить полную сохранность всех компонентов холодильных
-                    камер. Мы работаем исключительно с профессиональным оборудованием и по заранее разработанному регламенту. </p>
-                <p class="_customer-services__content">Процесс демонтажа состоит из следующих этапов: </p>
-                <ul>
+                <p class="_customer-services__content content--right">Выполняется квалифицированными специалистами, что позволяет минимизировать общее время работ<br>и
+                    обеспечить полную сохранность всех компонентов холодильных
+                    камер. Мы работаем исключительно<br>с профессиональным оборудованием и по заранее разработанному регламенту. </p>
+                <p class="_customer-services__list-title">Процесс демонтажа состоит из следующих этапов: </p>
+                <ul class="_customer-services__list">
                     <li>отключение все электрических систем;</li>
                     <li>удаление хладагентов из системы;</li>
                     <li>разгерметизация и демонтаж трубопровода;</li>
@@ -57,11 +59,13 @@
         </section>
         <!--Секция "Узнайте стоимость..."-->
         <section class="_customer-request-price">
-            <h2 class="_customer-request-price__title">Узнайте стоимость монтажа и демонтажа холодильных камер</h2>
-            <img class="_customer-request-price__background" src="img/bgLong.png" width="1227" height="356">
-            <img class="_customer-request-price__img"src="img/montage.png" width="389" height="364">
-            <p>Просто напишите нам. Мы перезвоним и оперативно всё рассчитаем.</p>
-            <button class="_customer-send-app _customer-buttons">Отправить заявку</button>
+            <img class="_customer-request-price__background" src="img/bgLongClean.png">
+            <img class="_customer-request-price__img" src="img/montage.png" width="389" height="364">
+            <div class="_customer-request-price__wrapper">
+                <h2 class="_customer-request-price__title">Узнайте стоимость монтажа и демонтажа холодильных камер</h2>
+                <p>Просто напишите нам. Мы перезвоним и оперативно всё рассчитаем.</p>
+                <button class="_customer-send-app _customer-buttons">Отправить заявку</button>
+            </div>
         </section>
         <!--Секция "Цены на монтаж..."-->
         <div class="_customer-chapter">
@@ -106,14 +110,16 @@
         </section>
         <!--Секция "Поможем при переезде..."-->
         <section class="_customer-request-relocation">
-            <img src="img/man.png" width="234" height="365">
-            <img src="img/bgBig2.jpg" width="1227" height="436">
-            <h2>Поможем при переезде</h2>
-            <p>Наша компания обеспечивает быстрое и качественное перемещение холодильных камер между объектами. Квалифицированные специалисты, наличие собственного транспорта
-                и комплексный подход по выполнению демонтажных, монтажных и пусконаладочных работ обеспечивает полное соблюдение оговоренных сроков.</p>
-            <img src="img/iconGarniture.svg" width="40" height="44">
-            <span>Оставьте заявку, и мы перезвоним в течение минуты</span>
-            <button class="_customer-send-app _customer-buttons">Отправить заявку</button>
+            <img class="_customer-request-relocation__background" src="img/bgBig2.png">
+            <img class="_customer-request-relocation__img" src="img/man.png" width="234" height="365">
+            <div class="_customer-request-relocation__wrapper">
+                <h2 class="_customer-request-relocation__title">Поможем при переезде</h2>
+                <p>Наша компания обеспечивает быстрое и качественное перемещение холодильных камер между объектами. Квалифицированные специалисты, наличие собственного транспорта
+                    и комплексный подход по выполнению демонтажных, монтажных и пусконаладочных работ обеспечивает полное соблюдение оговоренных сроков.</p>
+                <img src="img/iconGarniture.svg" width="40" height="44">
+                <span>Оставьте заявку, и мы перезвоним в течение минуты</span>
+                <button class="_customer-send-app _customer-buttons">Отправить заявку</button>
+            </div>
         </section>
         <!--Секция "Почему нас выбирают..."-->
         <div class="_customer-chapter">
