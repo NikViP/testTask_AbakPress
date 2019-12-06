@@ -74,38 +74,53 @@
         </div>
 
         <section class="_customer-prices">
-            <div class="_customer-camera-prices">
-                <img src="img/camerasSmall.png" width="263" height="180">
-                <h3>Камеры малого размера</h3>
-                <span>Прямоугольная форма</span>
-                <div>от 8000 руб.</div>
-                <div>от 160 см до 180 см</div>
-                <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
-
+            <div class="_customer-prices__sublayer">
+                <div class="_customer-prices__cameras">
+                    <img src="img/camerasSmall.png" width="263" height="180">
+                    <h3 class="_customer-prices__title">Камеры малого размера</h3>
+                    <span class="_customer-prices__text">Прямоугольная форма</span>
+                    <div class="_customer-prices__data">
+                        <div class="_customer-prices__cost">от <span>8 000</span> руб.</div>
+                        <div class="_customer-prices__size">от 160 см до 180 см</div>
+                    </div>
+                </div>
+            <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
             </div>
-            <div class="_customer-camera-prices">
+            <div class="_customer-prices__sublayer">
+            <div class="_customer-prices__cameras">
                 <img src="img/camerasMedium.png" width="263" height="180">
-                <h3>Камеры малого размера</h3>
-                <span>Прямоугольная форма</span>
-                <div>от 8000 руб.</div>
-                <div>от 160 см до 180 см</div>
-                <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
+                <h3 class="_customer-prices__title">Камеры малого размера</h3>
+                <span class="_customer-prices__text">Прямоугольная форма</span>
+                <div class="_customer-prices__data">
+                    <div class="_customer-prices__cost">от <span>13 000</span> руб.</div>
+                    <div class="_customer-prices__size">от 180 см до 200 см</div>
+                </div>
             </div>
-            <div class="_customer-camera-prices">
+            <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
+            </div>
+            <div class="_customer-prices__sublayer">
+            <div class="_customer-prices__cameras">
                 <img src="img/camerasBig.png" width="263" height="180">
-                <h3>Камеры малого размера</h3>
-                <span>Прямоугольная форма</span>
-                <div>от 8000 руб.</div>
-                <div>от 160 см до 180 см</div>
-                <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
+                <h3 class="_customer-prices__title">Камеры малого размера</h3>
+                <span class="_customer-prices__text">Прямоугольная форма</span>
+                <div class="_customer-prices__data">
+                    <div class="_customer-prices__cost">от <span>450</span> руб./м</div>
+                    <div class="_customer-prices__size">от 200 см до 350 см</div>
+                </div>
             </div>
-            <div class="_customer-camera-prices">
+            <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
+            </div>
+            <div class="_customer-prices__sublayer">
+            <div class="_customer-prices__cameras">
                 <img src="img/camerasIndividual.png" width="263" height="180">
-                <h3>Камеры малого размера</h3>
-                <span>Прямоугольная форма</span>
-                <div>от 8000 руб.</div>
-                <div>от 160 см до 180 см</div>
-                <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
+                <h3 class="_customer-prices__title">Камеры малого размера</h3>
+                <span class="_customer-prices__text">Индивидуальная форма</span>
+                <div class="_customer-prices__data">
+                    <div class="_customer-prices__cost">от <span>500</span> руб./м</div>
+                    <div class="_customer-prices__size">от 160 см до 180 см</div>
+                </div>
+            </div>
+            <button class="_customer-order-install _customer-buttons">Заказать монтаж</button>
             </div>
         </section>
         <!--Секция "Поможем при переезде..."-->
@@ -235,9 +250,11 @@
         </div>
 
         <section class="_customer-area">
-            <p>Работаем по всей России. Доставка холодилных камер собственного производства осуществляется
+            <p class="_customer-area__text">Работаем по всей России. Доставка холодилных камер собственного производства осуществляется
                 транспортной компанией по выбору клиента. Возможен самовывоз продукции со склада в Москве.</p>
-            <img src="img/superMap.png" width="670" height="538">
+            <div class="_customer-area__wrapper">
+                <img class="_customer-area__img" src="img/superMap.png" width="670" height="538">
+            </div>
         </section>
         <!--Секция "Схема работы"-->
         <div class="_customer-chapter">
@@ -246,19 +263,27 @@
         </div>
 
         <section class="_customer-scheme">
-            <img src="img/iconBlocknote.png" width="130" height="110">
-            <span>Оформление заказа</span>
-            <img src="img/iconVallet.png" width="130" height="110">
-            <span>Оплата</span>
-            <img src="img/iconTools2.png" width="130" height="110">
-            <span>Выполнение работ</span>
-            <span>В зависимости от вида услуг:</span>
-            <ul>
-                <li>демонтаж старых камер;</li>
-                <li>перевозка, доставка камер;</li>
-                <li>установка, наладка новых холодильных камер</li>
-            </ul>
-            <button class="_customer-send-app _customer-buttons">Отправить заявку</button>
+            <div class="_customer-scheme__group">
+                <img src="img/iconBlocknote.png" width="130" height="110">
+                <span class="_customer-scheme__title">Оформление заказа</span>
+            </div>
+            <div class="_customer-scheme__group">
+                <img src="img/iconVallet.png" width="130" height="110">
+                <span class="_customer-scheme__title">Оплата</span>
+            </div>
+            <div class="_customer-scheme__group _customer-scheme__group--last">
+                <img src="img/iconTools2.png" width="130" height="110">
+                <div class="_customer-scheme__mini-group">
+                    <span class="_customer-scheme__title">Выполнение работ</span>
+                    <span class="_customer-scheme__subtitle">В зависимости от вида услуг:</span>
+                </div>
+                <ul class="_customer-scheme__list">
+                    <li>демонтаж старых камер;</li>
+                    <li>перевозка, доставка камер;</li>
+                    <li>установка, наладка новых холодильных камер</li>
+                </ul>
+            </div>
+            <button class="_customer-send-app _customer-send-app--sheme _customer-buttons">Отправить заявку</button>
         </section>
     </main>
 </body>

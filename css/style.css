@@ -62,8 +62,7 @@ body {
 }
 
 ._customer-wrapper {
-    width: 100%;
-    max-width: 1148px;
+    max-width: 1182px;
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
@@ -322,11 +321,110 @@ body {
 
 ._customer-prices {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    height: 450px;
 }
+
+._customer-prices__sublayer {
+    top: 0;
+    left: 295px;
+    width: 294px;
+    height: 410px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px 10px #b4b4b4;
+}
+
+._customer-prices__cameras {
+    width: 263px;
+    margin: 0 auto;
+}
+
+._customer-prices__cameras img {
+    width: 262px;
+    height: 180px;
+    margin-top: 16px;
+}
+
+._customer-prices__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+._customer-prices__text {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #5D5D5D;
+}
+
+._customer-prices__cost {
+
+}
+
+._customer-prices__data {
+    display: flex;
+    width: 263px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+._customer-prices__cost {
+    width: 106px;
+    height: 30px;
+    background-color: #0064C1;
+    border: 2px solid #0064C1;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+ }
+
+._customer-prices__cost span {
+    font-weight: bold;
+}
+
+._customer-prices__size {
+    width: 140px;
+    height: 30px;
+    border: 2px solid #929292;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #929292;
+}
+
+._customer-order-install {
+    position: absolute;
+    top: 380px;
+    left: 75px;
+}
+
 
 /*Секция "Цены на монтаж холодильных камеры ..." for tablet*/
 
+@media (min-width: px) {
+    ._customer-prices {
+
+    }
+}
+
+
 /*Секция "Цены на монтаж холодильных камеры ..." for descktop*/
+
+@media (min-width: px) {
+    ._customer-prices {
+
+    }
+}
 
 /*#####################################################*/
 /*#####################################################*/
@@ -519,7 +617,6 @@ body {
     }
 }
 
-
 /*Секция "Отзывы" for mobile*/
 
 ._customer-feedback {
@@ -671,73 +768,199 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#####################################################*/
-/*#####################################################*/
-/*#####################################################*/
-/*#####################################################*/
-
-
-
 /*Секция "География работы" for mobile*/
+._customer-area {
+    display: block;
+}
+
+._customer-area__text {
+    max-width: 770px;
+    color: #3e3e3e;
+    line-height: 1.4;
+    margin: 0 20px;
+}
+
+._customer-area__wrapper {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+._customer-area__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: auto;
+    max-width: 670px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
 
 /*Секция "География работы" for tablet*/
 
+@media (min-width: 768px) {
+
+    ._customer-area__text {
+
+    }
+
+    ._customer-area__img {
+        margin-left: 80px;
+    }
+}
+
 /*Секция "География работы" for descktop*/
 
-/*#####################################################*/
-/*#####################################################*/
-/*#####################################################*/
-/*#####################################################*/
+@media (min-width: 1024px) {
 
+    ._customer-area__text {
+        margin: 0;
+    }
 
+    ._customer-area__img {
+        width: 100%;
+        margin: 0;
+        margin-left: 80px;
+    }
+}
 
 /*Секция "Схема работы" for mobile*/
 
+._customer-scheme {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+._customer-scheme__group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+._customer-scheme__group img {
+    margin-bottom: 26px;
+}
+
+
+._customer-scheme__title {
+    font-weight: bold;
+}
+
+._customer-scheme__subtitle {
+    margin: 10px 0;
+    font-weight: normal;
+    color: #7a7a7a;
+}
+
+._customer-scheme__list {
+    list-style: none;
+    color: #7a7a7a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+._customer-scheme__list li::before {
+    content: "\2022";
+    color: #7a7a7a;
+    font-weight: bold;
+    display: inline-block;
+    width: 12px;
+}
+
+._customer-scheme__list li:last-child {
+    width: 220px;
+}
+
+._customer-send-app--sheme {
+    position: absolute;
+    top: ;
+    left: ;
+}
+
 /*Секция "Схема работы" for tablet*/
+
+@media (min-width: 460px) {
+    ._customer-scheme {
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-right: 40px;
+    }
+
+    ._customer-scheme__group {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    ._customer-scheme__group--last {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #f41f10;
+    }
+
+    ._customer-scheme__mini-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #0b0970;
+    }
+
+    ._customer-scheme__title {
+        /*margin-left: 40px;*/
+    }
+
+    ._customer-send-app--sheme {
+        top: ;
+        left:
+    }
+}
+
+@media (min-width: 728px) {
+    ._customer-scheme {
+        flex-direction: row;
+    }
+
+    ._customer-scheme__group {
+        flex-direction: column;
+    }
+
+    ._customer-send-app--sheme {
+        top: ;
+        left:
+    }
+}
 
 /*Секция "Схема работы" for descktop*/
 
-/*#####################################################*/
-/*#####################################################*/
-/*#####################################################*/
-/*#####################################################*/
+@media (min-width: 1024px) {
+    ._customer-scheme {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 0;
+        margin-left: 38px;
+        max-width: 1000px;
+        padding-left: 1px;
+        padding-right: 40px;
+    }
 
+    ._customer-scheme__list {
+        margin-left: 40px;
+    }
+
+    ._customer-send-app--sheme {
+        top: 200px;
+        left: 0;
+    }
+}
 
 
 
