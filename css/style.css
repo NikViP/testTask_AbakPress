@@ -321,22 +321,34 @@ body {
 
 ._customer-prices {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1180px;
+    margin: 0 auto;
+    max-width: 290px;
     height: 450px;
 }
 
 ._customer-prices__sublayer {
-    top: 0;
-    left: 295px;
     width: 294px;
     height: 410px;
     border-radius: 4px;
+    box-shadow: none;
+    z-index: 2;
+}
+
+._customer-prices__sublayer:hover {
     box-shadow: 0 10px 20px 10px #b4b4b4;
+    transition: 0.3s;
+}
+
+._customer-prices__sublayer:hover ._customer-order-install {
+    opacity: 1;
+    transition: 0.2s;
 }
 
 ._customer-prices__cameras {
+    display: flex;
+    flex-direction: column;
     width: 263px;
     margin: 0 auto;
 }
@@ -373,6 +385,7 @@ body {
     width: 263px;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 ._customer-prices__cost {
@@ -403,26 +416,27 @@ body {
 }
 
 ._customer-order-install {
-    position: absolute;
-    top: 380px;
-    left: 75px;
+    margin: 0 auto;
+    opacity: 0;
 }
 
 
 /*Секция "Цены на монтаж холодильных камеры ..." for tablet*/
 
-@media (min-width: px) {
+@media (min-width: 580px) {
     ._customer-prices {
-
+        max-width: 820px;
+        margin: 0 auto;
     }
 }
 
 
 /*Секция "Цены на монтаж холодильных камеры ..." for descktop*/
 
-@media (min-width: px) {
+@media (min-width: 1180px) {
     ._customer-prices {
-
+        justify-content: space-between;
+        max-width: 1200px;
     }
 }
 
