@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9fc1456-da5d-4bc5-acc6-66d972244b95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_desktop_my.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_desktop_my.html" afterDir="false" />
     </list>
@@ -12,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34760052">
+    <splitter split-orientation="horizontal" split-proportion="0.42736706">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test_desktop_my.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="88" column="52" lean-forward="true" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+                <state relative-caret-position="426">
+                  <caret line="269" column="79" lean-forward="true" selection-start-line="269" selection-start-column="48" selection-end-line="269" selection-end-column="79" />
                   <folding>
                     <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -27,6 +28,7 @@
                     <element signature="n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -40,7 +42,6 @@
                     <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -50,7 +51,7 @@
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2800">
-                  <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
+                  <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -62,8 +63,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="421" lean-forward="true" selection-start-line="421" selection-end-line="421" />
+                <state relative-caret-position="258">
+                  <caret line="925" column="26" lean-forward="true" selection-start-line="925" selection-start-column="26" selection-end-line="925" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -87,6 +88,10 @@
       <find>size</find>
       <find>color</find>
       <find>customer-prices__cameras</find>
+      <find>button</find>
+      <find>shad</find>
+      <find>width</find>
+      <find>монтаж</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,12 +176,12 @@
       <workItem from="1575541027231" duration="5336000" />
       <workItem from="1575596337479" duration="12476000" />
       <workItem from="1575633092261" duration="8810000" />
-      <workItem from="1575694802019" duration="5888000" />
+      <workItem from="1575694802019" duration="21357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132458000" />
+    <option name="totallyTimeSpent" value="147927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_desktop_my.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="88" column="52" lean-forward="true" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+        <state relative-caret-position="426">
+          <caret line="269" column="79" lean-forward="true" selection-start-line="269" selection-start-column="48" selection-end-line="269" selection-end-column="79" />
           <folding>
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -355,6 +360,7 @@
             <element signature="n#div#1;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -368,15 +374,14 @@
             <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="421" lean-forward="true" selection-start-line="421" selection-end-line="421" />
+        <state relative-caret-position="258">
+          <caret line="925" column="26" lean-forward="true" selection-start-line="925" selection-start-column="26" selection-end-line="925" selection-end-column="26" />
         </state>
       </provider>
     </entry>
