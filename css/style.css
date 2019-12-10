@@ -1,4 +1,4 @@
-/*Шрифты*/
+/*ШРИФТЫ*/
 
 @font-face {
     font-family: 'Roboto';
@@ -53,7 +53,7 @@
 /*#####################################################*/
 /*#####################################################*/
 
-/*Общие стили*/
+/*ОБЩИЕ СТИЛИ*/
 
 body {
     font-family: "Roboto";
@@ -76,13 +76,10 @@ body {
 
 ._customer-wrapper {
     max-width: 1146px;
-    min-height: 5680px;
+    min-height: 100%;
     margin: 0 auto;
     margin-top: 20px;
     padding-top: 30px;
-
-    /*Эти стили УБРАТЬ*/
-    border: 1px solid #f41f10;
 }
 
 /*#####################################################*/
@@ -90,7 +87,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Заголовки секций for mobile*/
+/*ЗАГОЛОВКИ СЕКЦИЙ (H2) for mobile*/
 
 ._customer-chapter {
     display: flex;
@@ -110,7 +107,7 @@ body {
     left: 0;
 }
 
-/*Заголовки секций for tablet & descktop*/
+/*ЗАГОЛОВКИ СЕКЦИЙ (H2) for tablet & descktop*/
 
 @media (min-width: 520px) {
     ._customer-chapter {
@@ -138,7 +135,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Кнопки*/
+/*КНОПКИ*/
 
 ._customer-buttons {
     display: inline-block;
@@ -170,7 +167,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Вступление" for mobile*/
+/*СЕКЦИЯ "ВСТУПЛЕНИЕ" for mobile*/
 
 ._customer-about {
     display: flex;
@@ -196,7 +193,7 @@ body {
     margin-left: 20px;
 }
 
-/*Секция "Вступление" for tablet & descktop*/
+/*СЕКЦИЯ "ВСТУПЛЕНИЕ" for tablet & descktop*/
 
 @media (min-width: 768px) {
     ._customer-about {
@@ -226,7 +223,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Услуги монтажа и демонтажа ..." for mobile*/
+/*СЕКЦИЯ "УСЛУГИ МОНТАЖА И ДЕМОНТАЖА..." for mobile*/
 
 ._customer-services {
     display: flex;
@@ -272,7 +269,7 @@ body {
     width: 12px;
 }
 
-/*Секция "Услуги монтажа и демонтажа ..." for tablet*/
+/*СЕКЦИЯ "УСЛУГИ МОНТАЖА И ДЕМОНТАЖА..." for tablet*/
 
 @media (min-width: 768px) {
 
@@ -294,7 +291,7 @@ body {
     }
 }
 
-/*Секция "Услуги монтажа и демонтажа ..." for descktop*/
+/*СЕКЦИЯ "УСЛУГИ МОНТАЖА И ДЕМОНТАЖА..." for descktop*/
 
 @media (min-width: 1024px) {
 
@@ -322,7 +319,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Узнайте стоимость монтажа и демонтажа ..." for mobile*/
+/*СЕКЦИЯ "УЗНАЙТЕ СТОИМОСТЬ МОНТАЖА И ДЕМОНТАЖА..." for mobile*/
 
 ._customer-request-price {
     position: relative;
@@ -356,8 +353,7 @@ body {
     left: 20px;
 }
 
-/*Секция "Узнайте стоимость монтажа и демонтажа ..." for tablet*/
-
+/*СЕКЦИЯ "УЗНАЙТЕ СТОИМОСТЬ МОНТАЖА И ДЕМОНТАЖА..." for tablet*/
 
 @media (min-width: 768px) {
     ._customer-request-price__img {
@@ -383,7 +379,7 @@ body {
     }
 }
 
-/*Секция "Узнайте стоимость монтажа и демонтажа ..." for descktop*/
+/*СЕКЦИЯ "УЗНАЙТЕ СТОИМОСТЬ МОНТАЖА И ДЕМОНТАЖА..." for descktop*/
 
 @media (min-width: 1024px) {
     ._customer-request-price__wrapper {
@@ -400,7 +396,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Цены на монтаж холодильных камеры ..." for mobile*/
+/*СЕКЦИЯ "ЦЕНЫ НА МОНТАЖ ХОЛОДИЛЬНЫХ КАМЕР..." for mobile*/
 
 ._customer-prices {
     display: flex;
@@ -501,7 +497,7 @@ body {
     color: #929292;
 }
 
-/*Секция "Цены на монтаж холодильных камеры ..." for tablet*/
+/*СЕКЦИЯ "ЦЕНЫ НА МОНТАЖ ХОЛОДИЛЬНЫХ КАМЕР..." for tablet*/
 
 @media (min-width: 580px) {
     ._customer-prices {
@@ -512,7 +508,7 @@ body {
     }
 }
 
-/*Секция "Цены на монтаж холодильных камеры ..." for descktop*/
+/*СЕКЦИЯ "ЦЕНЫ НА МОНТАЖ ХОЛОДИЛЬНЫХ КАМЕР..." for descktop*/
 
 @media (min-width: 1146px) {
     ._customer-prices {
@@ -530,7 +526,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Поможем при переезде..." for mobile*/
+/*СЕКЦИЯ "ПОМОЖЕМ ПРИ ПЕРЕЕЗДЕ..." for mobile*/
 
 ._customer-request-relocation {
     position: relative;
@@ -578,7 +574,7 @@ body {
     left: 50px;
 }
 
-/*Секция "Поможем при переезде..." for tablet*/
+/*СЕКЦИЯ "ПОМОЖЕМ ПРИ ПЕРЕЕЗДЕ..." for tablet*/
 
 @media (min-width: 380px) {
     ._customer-request-relocation__subtitle {
@@ -647,21 +643,14 @@ body {
         bottom: -20px;
         left: 20px;
     }
-
-
 }
 
-/*Секция "Поможем при переезде..." for descktop*/
+/*СЕКЦИЯ "ПОМОЖЕМ ПРИ ПЕРЕЕЗДЕ..." for descktop*/
 
 @media (min-width: 1048px) {
     ._customer-request-relocation__wrapper {
         max-width: 530px;
     }
-
-    ._customer-request-relocation ._customer-buttonSendApp {
-        bottom: ;
-        left: ;
-    }
 }
 
 /*#####################################################*/
@@ -669,7 +658,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Почему нас выбирают" for mobile*/
+/*СЕКЦИЯ "ПОЧЕМУ НАС ВЫБИРАЮТ" for mobile*/
 
 ._customer-promoution__top {
     display: flex;
@@ -732,8 +721,7 @@ body {
     padding-left: 12px;
 }
 
-/*Секция "Почему нас выбирают" for tablet*/
-
+/*СЕКЦИЯ "ПОЧЕМУ НАС ВЫБИРАЮТ" for tablet*/
 
 @media (min-width: 560px) {
     ._customer-promoution__top {
@@ -769,12 +757,16 @@ body {
 }
 
 @media (min-width: 728px) {
+    ._customer-chapter--promoution {
+        margin-top: 80px;
+    }
+
     ._customer-promoution__low {
         width: 720px;
     }
 }
 
-/*Секция "Почему нас выбирают" for descktop*/
+/*СЕКЦИЯ "ПОЧЕМУ НАС ВЫБИРАЮТ" for descktop*/
 
 @media (min-width: 1024px) {
     ._customer-promoution__top {
@@ -802,7 +794,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Отзывы" for mobile*/
+/*СЕКЦИЯ "ОТЗЫВЫ" for mobile*/
 
 ._customer-feedback {
     position: relative;
@@ -860,14 +852,14 @@ body {
     right: 12px;
 }
 
-/*Секция "Отзывы" for tablet*/
+/*СЕКЦИЯ "ОТЗЫВЫ" for tablet*/
 @media (min-width: 726px) {
     ._customer-feedback__wrapper div:nth-last-child(2) {
         display: block;
     }
 }
 
-/*Секция "Отзывы" for descktop*/
+/*СЕКЦИЯ "ОТЗЫВЫ" for descktop*/
 @media (min-width: 1028px) {
     ._customer-feedback__wrapper div:nth-last-child(1) {
         display: block;
@@ -879,7 +871,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Наши клиенты" for mobile*/
+/*СЕКЦИЯ "НАШИ КЛИЕНТЫ" for mobile*/
 
 ._customer-clients {
     position: relative;
@@ -914,7 +906,7 @@ body {
     display: none;
 }
 
-/*Секция "Наши клиенты" for tablet*/
+/*СЕКЦИЯ "НАШИ КЛИЕНТЫ" for tablet*/
 
 @media (min-width: 536px) {
     ._customer-clients__wrapper img:nth-last-child(3) {
@@ -928,7 +920,7 @@ body {
     }
 }
 
-/*Секция "Наши клиенты" for descktop*/
+/*СЕКЦИЯ "НАШИ КЛИЕНТЫ" for descktop*/
 
 @media (min-width: 1028px) {
     ._customer-clients__wrapper img:nth-last-child(1) {
@@ -941,7 +933,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Хотите увеличить размер ..." for mobile*/
+/*СЕКЦИЯ "ХОТИТЕ УВЕЛИЧИТЬ РАЗМЕР..." for mobile*/
 
 ._customer-request-upgrade {
     position: relative;
@@ -988,7 +980,20 @@ body {
     display: none;
 }
 
-/*Секция "Хотите увеличить размер ..." for tablet*/
+._customer-request-upgrade__wrapper ._customer-buttonOrderCall {
+    margin-top: 20px;
+    margin-left: 0;
+
+}
+
+/*СЕКЦИЯ "ХОТИТЕ УВЕЛИЧИТЬ РАЗМЕР..." for tablet*/
+
+@media (min-width: 479px) {
+    ._customer-request-upgrade__wrapper ._customer-buttonOrderCall {
+        margin-top: 0;
+        margin-left: 28px;
+    }
+}
 
 @media (min-width: 768px) {
     ._customer-request-upgrade {
@@ -1010,26 +1015,22 @@ body {
         opacity: 1%;
     }
 
-    /*._customer-request-upgrade__wrapper ._customer-buttonOrderCall {*/
-    /*    margin-top: 20px;*/
-    /*    margin-left: 0;*/
-
-    /*}*/
+    ._customer-request-upgrade__wrapper ._customer-buttonOrderCall {
+        margin-top: 20px;
+        margin-left: 0;
+    }
 }
 
-/*@media (min-width: 916px) {*/
-/*    ._customer-request-upgrade__wrapper ._customer-buttonOrderCall {*/
-/*        margin-top: 0;*/
-/*        margin-left: 28px;*/
-/*    }*/
+@media (min-width: 920px) {
+    ._customer-request-upgrade__wrapper ._customer-buttonOrderCall {
+        margin-top: 0;
+        margin-left: 28px;
+    }
+}
 
-/*Секция "Хотите увеличить размер ..." for descktop*/
+/*СЕКЦИЯ "ХОТИТЕ УВЕЛИЧИТЬ РАЗМЕР..." for descktop*/
 
 @media (min-width: 1160px) {
-    ._customer-request-upgrade {
-
-    }
-
     ._customer-request-upgrade__wrapper {
         padding-left: 0;
     }
@@ -1040,7 +1041,8 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "География работы" for mobile*/
+/*СЕКЦИЯ "ГЕОГРАФИЯ РАБОТЫ" for mobile*/
+
 ._customer-area {
     display: block;
 }
@@ -1076,7 +1078,7 @@ body {
     }
 }
 
-/*Секция "География работы" for descktop*/
+/*СЕКЦИЯ "ГЕОГРАФИЯ РАБОТЫ" for descktop*/
 
 @media (min-width: 1160px) {
 
@@ -1095,7 +1097,7 @@ body {
 /*#####################################################*/
 /*#####################################################*/
 
-/*Секция "Схема работы" for mobile*/
+/*СЕКЦИЯ "СХЕМА РАБОТЫ" for mobile*/
 
 ._customer-scheme {
     position: relative;
@@ -1166,7 +1168,7 @@ body {
     left: 0;
 }
 
-/*Секция "Схема работы" for tablet*/
+/*СЕКЦИЯ "СХЕМА РАБОТЫ" for tablet*/
 
 @media (min-width: 568px) {
     ._customer-scheme {
@@ -1205,18 +1207,15 @@ body {
     }
 }
 
-/*Секция "Схема работы" for desktop*/
+/*СЕКЦИЯ "СХЕМА РАБОТЫ" for desktop*/
 
 @media (min-width: 1024px) {
     ._customer-scheme {
         justify-content: space-between;
         flex-wrap: nowrap;
-        /*width: 100%;*/
         margin: 0;
         margin-left: 38px;
         max-width: 1000px;
-        /*padding-left: 1px;*/
-        /*padding-right: 40px;*/
     }
 
     ._customer-scheme__subtitle,
